@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "repro-psl-simple"
+version = "0.1.0"
+description = ""
+authors = ["Kenya Nonaka <opoblblfozb@gmail.com>"]
+readme = "README.md"
+packages = [{include = "repro_psl_simple"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pslpython = "^2.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
